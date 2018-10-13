@@ -144,7 +144,7 @@ textarea {
 	border-radius: 15px;
 }
 
-.btn-solid-state {
+.btn-ss {
 	-webkit-transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
 	-ms-transition: all 0.4s ease-in-out;
@@ -157,7 +157,7 @@ textarea {
 	font-weight: 300;
 	text-transform: uppercase;
 }
-.btn-solid-state:focus, .btn-solid-state:hover {
+.btn-ss:focus, .btn-ss:hover {
     border: 1px solid #242d44;
     color: #242d44;
     border-radius: 25px;
@@ -351,11 +351,11 @@ h3 {
 	margin: 56px 0 56px 0;
 }
 
-.list-solid-state {
+.list-ss {
 	margin-left: 15px;
 }
 
-.navbar-solid-state {
+.navbar-ss {
 	background-color: transparent;
     color: rgb(255, 255, 255);
     position: fixed;
@@ -365,7 +365,7 @@ h3 {
     width: 100%;
 }
 
-.navbar-btn-solid-state {
+.navbar-btn-ss {
 	background-color: transparent;
 	text-transform: uppercase;
 	border-radius: 0;
@@ -375,7 +375,7 @@ h3 {
 	margin-left: 10px;
 }
 
-.navbar-btn-solid-state:hover, .navbar-btn-solid-state:focus {
+.navbar-btn-ss:hover, .navbar-btn-ss:focus {
     font-size: 15px;
     color: #ffffff;
 }
@@ -386,7 +386,7 @@ h3 {
     border: 1px solid #52313f;
 }
 
-.pop-up-solid-state {
+.pop-up-ss {
 	margin: auto;
     width: 50%;
     border: 3px solid green;
@@ -638,6 +638,24 @@ body.is-loading #banner p {
 
 #footer {
 	background-color: #ffffff;
+}
+
+.site-title {
+  color: #ffffff;
+  border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+  border-radius: 0;
+  border: 1px solid #ffffff;
+  padding: 0 1em;
+  background-color: #242d44;
+  font-family: Raleway, Helvetica, sans-serif;
+  font-size: 0.8em;
+  font-weight: 700;
+  height: 2em;
+  line-height: 2em;
+  position: absolute;
+  left: 0.2em;
+  text-transform: uppercase;
+  top: 0.3em;
 }
 
 .a-menu {
@@ -1053,7 +1071,7 @@ textarea#message {
 	color: #333333;
 }
 
-.footer-list, .list-solid-state i {
+.footer-list, .list-ss i {
     color: #333;
     font-size: 21px;
 }
@@ -1063,7 +1081,7 @@ textarea#message {
 	margin-right: 10px;
 }
 
-.list-solid-state .list-inline {
+.list-ss .list-inline {
 	margin-left: 13px;
 }
 
