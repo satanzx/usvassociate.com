@@ -339,6 +339,12 @@ h3 {
 	margin-bottom: 32px;
 }
 
+.four-features .features-content ul {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
 .footer-bottom p {
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
@@ -1415,6 +1421,13 @@ textarea#message {
 	    width: 120px;
 	}
 }
+
+@media (min-width: 768px) {
+  .four-features .features-content {
+    min-height: 270px;
+  }
+}
+
 
 .icon-facebook:hover, .icon-facebook:focus {
 	color: #44619D
